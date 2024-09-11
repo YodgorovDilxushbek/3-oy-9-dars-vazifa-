@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+    .nav-item a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-weight: 19px;
+        color: #002959;
+        transition: all 0.5s linear;
+    }
+
+    a:hover {
+        color: #4286d4;
+    }
+}
+
+
+.button {
+    text-align: center;
+
+    .click  {
+        // margin-left: 304px;  
+        text-decoration: none;
+        gap: 6px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        background-color: #EC6C21;
+        padding: 24px 40px;
+        color: #fff;
+        transition: all 0.5s linear;
+        align-items: center;
+       
+
+        &:hover {
+            background-color: #998ff7;
+            color: #EC6C21;
+            .click img{
+                background-color: #EC6C21;
+            }
+        }
+    }
+    .button_image{
+        color: aqua;
+        background-color: green;
+    }
+}
+
+.hero__container {
+    margin-top: 140px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .hero__luctus {
+        text-align: center;
+
+        .luctus__title {
+            text-align: center;
+            font-weight: 600;
+            font-size: 61px;
+            font-weight: 70px;
+            color: #002959;
+            margin-bottom: 40px;
+            text-transform: capitalize;
+
+
+        }
+    }
+
+    .luctus__description {
+        gap: 5px;
+        line-height: 28px;
+        margin-left: 300px;
+        text-align: center;
+        max-width: 632px;
+        font-size: 19px;
+        color: #002959;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+    }
+
+    
+    
+    .img1 {
+        position: absolute;
+        left: 50;
+        top: 120px;
+        margin-left: 130px;
+    }
+    
+    .img2 {
+        position: absolute;
+        right: 0;
+        top: -20px;
+        margin-right: 40px;
+    }
+    
+}
+.block img {
+    margin: 0;
+    background-image: url(../image/Layer_1.png);
+    width: 100%;
+    height: 902px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    align-items: center;
+    
+    margin-top: -200px;
+}
